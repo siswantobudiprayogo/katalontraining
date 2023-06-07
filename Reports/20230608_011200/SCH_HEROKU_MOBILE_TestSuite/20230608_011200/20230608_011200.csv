@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SCH_HEROKU_MOBILE_TestSuite,,,,2023-06-08 01:12:07,2023-06-08 01:13:26,1m - 19.511s,PASSED
+,,,,,,,
+Test Cases/sch_heroku_mobile_1_login,,,,2023-06-08 01:12:08,2023-06-08 01:12:51,43.014s,PASSED
+"startApplication(""D:\DIAN AYU BARU\BOTHCAMP QAE\GOLD Challenge\GOLD Challenge\app-release.apk"", false)",,,,2023-06-08 01:12:10,2023-06-08 01:12:33,23.092s,PASSED
+"tap(findTestObject(""Object Repository/Mobile_SeconhandStore/android.widget.ImageView""), 0)",,,,2023-06-08 01:12:33,2023-06-08 01:12:35,1.921s,PASSED
+"tap(findTestObject(""Object Repository/Mobile_SeconhandStore/android.widget.Button - Masuk""), 0)",,,,2023-06-08 01:12:35,2023-06-08 01:12:36,0.911s,PASSED
+"setText(findTestObject(""Object Repository/Mobile_SeconhandStore/android.widget.EditText - Masukkan email""), ""crescent7000@yahoo.com"", 0)",,,,2023-06-08 01:12:36,2023-06-08 01:12:38,2.373s,PASSED
+"setText(findTestObject(""Object Repository/Mobile_SeconhandStore/android.widget.EditText - Masukkan password""), ""Jaksel2022"", 0)",,,,2023-06-08 01:12:38,2023-06-08 01:12:40,1.279s,PASSED
+"tap(findTestObject(""Object Repository/Mobile_SeconhandStore/android.widget.Button - Masuk (1)""), 0)",,,,2023-06-08 01:12:40,2023-06-08 01:12:40,0.785s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-06-08 01:12:40,2023-06-08 01:12:50,10.103s,PASSED
+closeApplication(),,,,2023-06-08 01:12:50,2023-06-08 01:12:51,1.033s,PASSED
+,,,,,,,
+Test Cases/sch_heroku_mobile_2_jualbarang,,,,2023-06-08 01:12:52,2023-06-08 01:13:26,34.944s,PASSED
+"startApplication(""D:\DIAN AYU BARU\BOTHCAMP QAE\GOLD Challenge\GOLD Challenge\app-release.apk"", false)",,,,2023-06-08 01:12:52,2023-06-08 01:13:08,15.919s,PASSED
+"tap(findTestObject(""Object Repository/Mobile_SeconhandStore/android.widget.ImageView (1)""), 0)",,,,2023-06-08 01:13:08,2023-06-08 01:13:11,2.221s,PASSED
+"setText(findTestObject(""Object Repository/Mobile_SeconhandStore/android.widget.EditText - Nama Produk""), ""Gelas"", 0)",,,,2023-06-08 01:13:11,2023-06-08 01:13:12,1.545s,PASSED
+"setText(findTestObject(""Object Repository/Mobile_SeconhandStore/android.widget.EditText - Rp 0,00""), ""5000000"", 0)",,,,2023-06-08 01:13:12,2023-06-08 01:13:14,2.368s,PASSED
+"tap(findTestObject(""Object Repository/Mobile_SeconhandStore/android.widget.Button - Terbitkan""), 0)",,,,2023-06-08 01:13:14,2023-06-08 01:13:16,1.347s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-06-08 01:13:16,2023-06-08 01:13:26,10.011s,PASSED
+closeApplication(),,,,2023-06-08 01:13:26,2023-06-08 01:13:26,0.648s,PASSED
