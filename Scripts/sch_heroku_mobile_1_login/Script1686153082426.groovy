@@ -17,18 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+Mobile.startApplication('D:\\DIAN AYU BARU\\BOTHCAMP QAE\\GOLD Challenge\\GOLD Challenge\\app-release.apk', false)
 
-WebUI.maximizeWindow()
+Mobile.tap(findTestObject('Object Repository/Mobile_SeconhandStore/android.widget.ImageView'), 0)
 
-WebUI.navigateToUrl('https://secondhand-store.herokuapp.com/login')
+Mobile.tap(findTestObject('Object Repository/Mobile_SeconhandStore/android.widget.Button - Masuk'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Page_SecondhandStore/input_Email_exampleInputEmail1'), 'dianayuu1234@gmail.com')
+Mobile.setText(findTestObject('Object Repository/Mobile_SeconhandStore/android.widget.EditText - Masukkan email'), 'crescent7000@yahoo.com', 
+    0)
 
-WebUI.setText(findTestObject('Object Repository/Page_SecondhandStore/input_Password_exampleInputPassword1'), 'Jaksel2022')
+Mobile.setText(findTestObject('Object Repository/Mobile_SeconhandStore/android.widget.EditText - Masukkan password'), 'Jaksel2022', 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_SecondhandStore/button_Masuk'))
+Mobile.tap(findTestObject('Object Repository/Mobile_SeconhandStore/android.widget.Button - Masuk (1)'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_SecondhandStore/profile_icon'), 10)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
+Mobile.closeApplication()
+
