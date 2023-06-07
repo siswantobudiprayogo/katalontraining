@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SCH_HEROKU_TestSuite" time="52.163" tests="2" failures="0" errors="0">
+   <testsuite name="SCH_HEROKU_TestSuite" tests="2" failures="0" errors="0" time="52.163" skipped="0" timestamp="2023-06-07 22:39:22" hostname="siswa - DESKTOP-TF1KCJK" id="Test Suites/SCH_HEROKU_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\siswa\\git\\katalontraining\\Reports\\20230607_223916\\SCH_HEROKU_TestSuite\\20230607_223916"/>
+         <property name="logFiles" value="C:\\Users\\siswa\\git\\katalontraining\\Reports\\20230607_223916\\SCH_HEROKU_TestSuite\\20230607_223916\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="siswa - DESKTOP-TF1KCJK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.182.1"/>
+         <property name="sessionId" value="f0cbfd843dcdafab44f9e68b6d67f753"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/sch_heroku_1_login" time="26.885" classname="Test Cases/sch_heroku_1_login" status="PASSED">
+         <system-out><![CDATA[2023-06-07 22:39:23 - [TEST_CASE][PASSED] - Test Cases/sch_heroku_1_login: Test Cases/sch_heroku_1_login
+
+2023-06-07 22:39:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-07 22:39:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-07 22:39:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-07 22:39:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-07 22:39:28 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand-store.herokuapp.com/login"): Navigate to 'https://secondhand-store.herokuapp.com/login' successfully
+
+2023-06-07 22:39:31 - [MESSAGE][PASSED] - Navigate to 'https://secondhand-store.herokuapp.com/login' successfully
+
+2023-06-07 22:39:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Secondhand Store_Login/input_Email_exampleInputEmail1"), "dianayuu1234@gmail.com"): Text 'dianayuu1234@gmail.com' is set on object 'Object Repository/Page_Secondhand Store_Login/input_Email_exampleInputEmail1'
+
+2023-06-07 22:39:32 - [MESSAGE][PASSED] - Text 'dianayuu1234@gmail.com' is set on object 'Object Repository/Page_Secondhand Store_Login/input_Email_exampleInputEmail1'
+
+2023-06-07 22:39:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Secondhand Store_Login/input_Password_exampleInputPassword1"), "Jaksel2022"): Text 'Jaksel2022' is set on object 'Object Repository/Page_Secondhand Store_Login/input_Password_exampleInputPassword1'
+
+2023-06-07 22:39:33 - [MESSAGE][PASSED] - Text 'Jaksel2022' is set on object 'Object Repository/Page_Secondhand Store_Login/input_Password_exampleInputPassword1'
+
+2023-06-07 22:39:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Secondhand Store_Login/button_Masuk")): Object: 'Object Repository/Page_Secondhand Store_Login/button_Masuk' is clicked on
+
+2023-06-07 22:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Secondhand Store_Login/button_Masuk' is clicked on
+
+2023-06-07 22:39:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Secondhand Store_Login/profile_icon"), 10): Object 'Object Repository/Page_Secondhand Store_Login/profile_icon' is not visible after 10 second(s)
+
+2023-06-07 22:39:49 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Secondhand Store_Login/profile_icon' is not visible after 10 second(s)
+
+2023-06-07 22:39:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-07 22:39:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sch_heroku_2_jualbarang" time="24.67" classname="Test Cases/sch_heroku_2_jualbarang" status="PASSED">
+         <system-out><![CDATA[2023-06-07 22:39:50 - [TEST_CASE][PASSED] - Test Cases/sch_heroku_2_jualbarang: Test Cases/sch_heroku_2_jualbarang
+
+2023-06-07 22:39:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-07 22:39:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-07 22:39:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-07 22:39:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-07 22:39:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-07 22:39:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-07 22:39:52 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand-store.herokuapp.com/login"): Navigate to 'https://secondhand-store.herokuapp.com/login' successfully
+
+2023-06-07 22:39:55 - [MESSAGE][PASSED] - Navigate to 'https://secondhand-store.herokuapp.com/login' successfully
+
+2023-06-07 22:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Secondhand Store_Login/input_Email_exampleInputEmail1"), "dianayuu1234@gmail.com"): Text 'dianayuu1234@gmail.com' is set on object 'Object Repository/Page_Secondhand Store_Login/input_Email_exampleInputEmail1'
+
+2023-06-07 22:39:56 - [MESSAGE][PASSED] - Text 'dianayuu1234@gmail.com' is set on object 'Object Repository/Page_Secondhand Store_Login/input_Email_exampleInputEmail1'
+
+2023-06-07 22:39:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Secondhand Store_Login/input_Password_exampleInputPassword1"), "Jaksel2022"): Text 'Jaksel2022' is set on object 'Object Repository/Page_Secondhand Store_Login/input_Password_exampleInputPassword1'
+
+2023-06-07 22:39:57 - [MESSAGE][PASSED] - Text 'Jaksel2022' is set on object 'Object Repository/Page_Secondhand Store_Login/input_Password_exampleInputPassword1'
+
+2023-06-07 22:39:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Secondhand Store_Login/button_Masuk")): Object: 'Object Repository/Page_Secondhand Store_Login/button_Masuk' is clicked on
+
+2023-06-07 22:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Secondhand Store_Login/button_Masuk' is clicked on
+
+2023-06-07 22:39:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Secondhand Store_Login/profile_icon"), 10): Object 'Object Repository/Page_Secondhand Store_Login/profile_icon' is visible
+
+2023-06-07 22:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Secondhand Store_Login/profile_icon' is visible
+
+2023-06-07 22:40:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/a_Jual")): Object: 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/a_Jual' is clicked on
+
+2023-06-07 22:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/a_Jual' is clicked on
+
+2023-06-07 22:40:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/input_Nama Produk_nm_produk"), "Handuk"): Text 'Handuk' is set on object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/input_Nama Produk_nm_produk'
+
+2023-06-07 22:40:04 - [MESSAGE][PASSED] - Text 'Handuk' is set on object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/input_Nama Produk_nm_produk'
+
+2023-06-07 22:40:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/input_Harga Produk_harga_produk"), "100000"): Text '100000' is set on object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/input_Harga Produk_harga_produk'
+
+2023-06-07 22:40:05 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/input_Harga Produk_harga_produk'
+
+2023-06-07 22:40:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElekt_b1877d"), "Pilih Kategori", true): All options with value 'Pilih Kategori' are selected in object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElekt_b1877d'  using regular expression
+
+2023-06-07 22:40:06 - [MESSAGE][PASSED] - All options with value 'Pilih Kategori' are selected in object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElekt_b1877d'  using regular expression
+
+2023-06-07 22:40:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElekt_b1877d"), "3", true): All options with value '3' are selected in object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElekt_b1877d'  using regular expression
+
+2023-06-07 22:40:07 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElekt_b1877d'  using regular expression
+
+2023-06-07 22:40:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/textarea_Handuk Premium"), "Handuk Premium"): Text 'Handuk Premium' is set on object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/textarea_Handuk Premium'
+
+2023-06-07 22:40:08 - [MESSAGE][PASSED] - Text 'Handuk Premium' is set on object 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/textarea_Handuk Premium'
+
+2023-06-07 22:40:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Terbitkan")): Object: 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Terbitkan' is clicked on
+
+2023-06-07 22:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Terbitkan' is clicked on
+
+2023-06-07 22:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Ditawar Rp70.000,00_user")): Object: 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Ditawar Rp70.000,00_user' is clicked on
+
+2023-06-07 22:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Ditawar Rp70.000,00_user' is clicked on
+
+2023-06-07 22:40:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Log Out")): Object: 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Log Out' is clicked on
+
+2023-06-07 22:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Log Out' is clicked on
+
+2023-06-07 22:40:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-07 22:40:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-07 22:39:22 - [TEST_SUITE][PASSED] - SCH_HEROKU_TestSuite: Test Cases/sch_heroku_2_jualbarang]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

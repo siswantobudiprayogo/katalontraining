@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://secondhand-store.herokuapp.com/login')
 
 WebUI.setText(findTestObject('Object Repository/Page_Secondhand Store_Login/input_Email_exampleInputEmail1'), 'dianayuu1234@gmail.com')

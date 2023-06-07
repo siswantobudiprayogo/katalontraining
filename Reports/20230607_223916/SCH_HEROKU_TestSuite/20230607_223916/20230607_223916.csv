@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SCH_HEROKU_TestSuite,Chrome 114.0.0.0,,,2023-06-07 22:39:22,2023-06-07 22:40:14,52.163s,PASSED
+,,,,,,,
+Test Cases/sch_heroku_1_login,Chrome 114.0.0.0,,,2023-06-07 22:39:23,2023-06-07 22:39:50,26.885s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-07 22:39:24,2023-06-07 22:39:28,4.456s,PASSED
+"navigateToUrl(""https://secondhand-store.herokuapp.com/login"")",Chrome 114.0.0.0,,,2023-06-07 22:39:28,2023-06-07 22:39:31,2.868s,PASSED
+"setText(findTestObject(""Object Repository/Page_Secondhand Store_Login/input_Email_exampleInputEmail1""), ""dianayuu1234@gmail.com"")",Chrome 114.0.0.0,,,2023-06-07 22:39:31,2023-06-07 22:39:32,1.059s,PASSED
+"setText(findTestObject(""Object Repository/Page_Secondhand Store_Login/input_Password_exampleInputPassword1""), ""Jaksel2022"")",Chrome 114.0.0.0,,,2023-06-07 22:39:32,2023-06-07 22:39:33,0.968s,PASSED
+"click(findTestObject(""Object Repository/Page_Secondhand Store_Login/button_Masuk""))",Chrome 114.0.0.0,,,2023-06-07 22:39:33,2023-06-07 22:39:33,0.568s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Secondhand Store_Login/profile_icon""), 10)",Chrome 114.0.0.0,,,2023-06-07 22:39:33,2023-06-07 22:39:49,15.218s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-07 22:39:49,2023-06-07 22:39:49,0.806s,PASSED
+,,,,,,,
+Test Cases/sch_heroku_2_jualbarang,Chrome 114.0.0.0,,,2023-06-07 22:39:50,2023-06-07 22:40:14,24.670s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-07 22:39:50,2023-06-07 22:39:52,1.714s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-07 22:39:52,2023-06-07 22:39:52,0.174s,PASSED
+"navigateToUrl(""https://secondhand-store.herokuapp.com/login"")",Chrome 114.0.0.0,,,2023-06-07 22:39:52,2023-06-07 22:39:55,2.896s,PASSED
+"setText(findTestObject(""Object Repository/Page_Secondhand Store_Login/input_Email_exampleInputEmail1""), ""dianayuu1234@gmail.com"")",Chrome 114.0.0.0,,,2023-06-07 22:39:55,2023-06-07 22:39:56,0.964s,PASSED
+"setText(findTestObject(""Object Repository/Page_Secondhand Store_Login/input_Password_exampleInputPassword1""), ""Jaksel2022"")",Chrome 114.0.0.0,,,2023-06-07 22:39:56,2023-06-07 22:39:57,0.940s,PASSED
+"click(findTestObject(""Object Repository/Page_Secondhand Store_Login/button_Masuk""))",Chrome 114.0.0.0,,,2023-06-07 22:39:57,2023-06-07 22:39:58,0.534s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_Secondhand Store_Login/profile_icon""), 10)",Chrome 114.0.0.0,,,2023-06-07 22:39:58,2023-06-07 22:40:02,4.535s,PASSED
+"click(findTestObject(""Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/a_Jual""))",Chrome 114.0.0.0,,,2023-06-07 22:40:02,2023-06-07 22:40:03,0.538s,PASSED
+"setText(findTestObject(""Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/input_Nama Produk_nm_produk""), ""Handuk"")",Chrome 114.0.0.0,,,2023-06-07 22:40:03,2023-06-07 22:40:04,1.164s,PASSED
+"setText(findTestObject(""Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/input_Harga Produk_harga_produk""), ""100000"")",Chrome 114.0.0.0,,,2023-06-07 22:40:04,2023-06-07 22:40:05,0.903s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElekt_b1877d""), ""Pilih Kategori"", true)",Chrome 114.0.0.0,,,2023-06-07 22:40:05,2023-06-07 22:40:06,1.252s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/select_Pilih KategoriHobyKendaraanBajuElekt_b1877d""), ""3"", true)",Chrome 114.0.0.0,,,2023-06-07 22:40:06,2023-06-07 22:40:07,1.241s,PASSED
+"setText(findTestObject(""Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/textarea_Handuk Premium""), ""Handuk Premium"")",Chrome 114.0.0.0,,,2023-06-07 22:40:07,2023-06-07 22:40:08,1.043s,PASSED
+"click(findTestObject(""Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Terbitkan""))",Chrome 114.0.0.0,,,2023-06-07 22:40:08,2023-06-07 22:40:09,0.551s,PASSED
+"click(findTestObject(""Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Ditawar Rp70.000,00_user""))",Chrome 114.0.0.0,,,2023-06-07 22:40:09,2023-06-07 22:40:13,3.795s,PASSED
+"click(findTestObject(""Object Repository/Page_Secondhand Store_Login/Page_Secondhand Store/button_Log Out""))",Chrome 114.0.0.0,,,2023-06-07 22:40:13,2023-06-07 22:40:13,0.769s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-07 22:40:13,2023-06-07 22:40:14,0.854s,PASSED
